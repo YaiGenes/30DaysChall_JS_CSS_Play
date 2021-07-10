@@ -1,0 +1,45 @@
+html {
+    font-size: 20px;
+    font-family: "Courier New", Courier, monospace;
+}
+
+.theTitle {
+    text-align: center;
+}
+
+
+/* body {
+    height: 100vh;
+} */
+
+.theChanges {
+    text-align: center;
+}
+
+.controls {
+    margin-right: 0.625rem;
+}
+
+.img {
+    margin-top: 1.875rem;
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    border-radius: 10px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 5.125rem;
+}
+
+button {
+    border: 0.0625rem solid black;
+    border-radius: 0.3125rem;
+    height: 2.625rem;
+    width: 4rem;
+}

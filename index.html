@@ -6,8 +6,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CSS_Variables</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js" defer></script>
 </head>
 
-<body></body>
+<body>
+    <h1 class="theTitle">Work with CSS variables</br> with JS</h1>
+    <div class="theChanges">
+        <label for="spacing">Spacing:</label>
+        <input class="controls" type="range" name="spacing" id="spacing" min="1" max="100" value="50" />
+        <label for="blur">Blur:</label>
+        <input class="controls" type="range" name="blur" id="blur" min="1" max="100" value="50" />
+        <label for="baseColor">Blur:</label>
+        <input class="controls" type="color" name="baseColor" id="baseColor" value="#ff0000" />
+    </div>
+
+    <div id="img" class="img"><img src="https://images.pexels.com/photos/6407742/pexels-photo-6407742.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" alt="MainImg"></div>
+    <div class="buttons">
+        <button>Boton 1</button>
+        <button>Boton 2</button>
+        <button>Boton 3</button>
+    </div>
+</body>
 
 </html>
